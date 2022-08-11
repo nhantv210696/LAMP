@@ -25,6 +25,33 @@ Chúng ta có thể kiểm tra lại một lần nữa xem dịch vụ SSH đã 
 
 **$ sudo netstat -pnltu | grep 2022**
 
+# Chuyển đổi xác thực SSH bằng Key thay cho mật khẩu (Tắt xác thực SSH bằng mật khẩu) #
+
+## Tắt xác thực SSH bằng mật khẩu ##
+Thao tác này sẽ được thực hiện trong file /etc/ssh/sshd_config.
+
+Đầu tiên sẽ vào thư mục /etc/ssh/sshd_config bằng trình soạn thảo văn bản 
+
+**$ sudo nano /etc/ssh/sshd_config**
+
+Kéo xuống và tìm dòng "PasswordAuthentication yes" 
+
+Có thể sử dụng tổ hợp phím CTRL + X sau đó gõ tìm PasswordAuthentication yes
+
+**Xóa dấu # và chỉnh yes thành no**
+
+Sau khi đã điều chỉnh thì sử dụng tổ hợp phím CTRL + X để thoát
+
+Restart lại SSH
+
+**$ sudo syntemctl restart ssh**
+
+Lúc này xác thực bằng mật khẩu khi đăng nhập vào SSH đã được tắt
+
+## Chuyển đổi xác thực SSH bằng Key ##
+
+
+
 
 
 
