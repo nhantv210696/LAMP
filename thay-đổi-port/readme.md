@@ -7,6 +7,7 @@ Tiếp đến chúng ta phải kiểm tra để chắc chắn rằng SSH đang �
 
 **$ sudo netstat -pnltu | grep 22**
 
+
 _Tuy nhiên, khi chạy lệnh này nếu hệ thống báo lỗi sudo: netstat: command not found, thì có nghĩa chúng ta chưa cài đặt lệnh Netstat trên Linux, chúng ta có thể sử dụng lệnh sau để cài đặt_
 
 _**$ sudo apt install net-tools**_
