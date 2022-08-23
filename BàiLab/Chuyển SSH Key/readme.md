@@ -4,29 +4,6 @@ Tạo file SSH Key (bao gồm public key và private key)
 
 **sudo ssh-keygen**
 
-Generating public/private rsa key pair.
-Enter file in which to save the key (/home/nhantv/.ssh/id_rsa):
-/home/nhantv/.ssh/id_rsa already exists.
-Overwrite (y/n)? y
-Enter passphrase (empty for no passphrase):
-Enter same passphrase again:
-Your identification has been saved in /home/nhantv/.ssh/id_rsa
-Your public key has been saved in /home/nhantv/.ssh/id_rsa.pub
-The key fingerprint is:
-SHA256:DtUkER6s2nXjDMyeQSvLSpzrRmspUz0E0jd6J+lQFn0 nhantv@teammailonly.xyz
-The key's randomart image is:
-+---[RSA 3072]----+
-|   .  .+=o.      |
-|  . o =.+=E      |
-|   . * Boo.      |
-|    o B.O o      |
-|   . @.BSB .     |
-|    B Boo o      |
-|   + = ..        |
-|  o B            |
-|   *.            |
-+----[SHA256]-----+
-
  Key vừa khởi tạo sẽ nằm trong thư mục
         
         Your identification has been saved in /home/nhantv/.ssh/id_rsa
