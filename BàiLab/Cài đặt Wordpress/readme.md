@@ -22,3 +22,14 @@ Di chuyển toàn bộ dữ liệu ra ngoài thư mục
 
 **mv [*]..**
 
+Tạo database trong MySQL
+
+
+create database vannhan;
+
+CREATE USER 'vannhan'@'localhost' IDENTIFIED BY '123456';
+
+GRANT ALL ON wordpress.* TO 'vannhan'@'localhost' WITH GRANT OPTION;
+
+FLUSH PRIVILEGES;
+EXIT;
